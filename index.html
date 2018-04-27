@@ -686,18 +686,18 @@ var imageb = document.getElementById("image3");
 var span = document.getElementsByClassName("close")[0];
 
 login.onclick = function(){
-	window.location="https://brixymitee.github.io/GoodWall2/";
+	document.location.href='https://brixymitee.github.io/GoodWall2/';
 
 }
 // When the user clicks the button, open the modal 
 image.onmouseover = function() {
     modal.style.display = "block";
 }
-imagea.onmouseover = function() {
-    modal.style.display = "block";
+imagea.onclick = function() {
+document.location.href='https://www.goodwall.org/universities';
 }
-imageb.onmouseover = function() {
-    modal.style.display = "block";
+imageb.onclick = function() {
+document.location.href='https://www.goodwall.org/employers';
 }
 
 // When the user clicks on <span> (x), close the modal
